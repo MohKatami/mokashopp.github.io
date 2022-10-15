@@ -299,12 +299,12 @@
   }
 
   .fitur-item {
-    padding: 1% 6%;
+    padding: 2% 6%;
   }
 
   .fitur-item img {
     width: 10vw !important;
-    height: 7vh !important;
+    height: 6.5vh !important;
   }
 
   .fitur-item h2 {
