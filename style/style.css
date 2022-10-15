@@ -388,6 +388,18 @@ div p {
   align-items: center;
   margin-top: 20px;
 }
+.desc-tren-ac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.desc-tren-ac h2 {
+  margin-top: 5px;
+  font-size: 17px;
+}
 
 .read-more {
   display: none;
@@ -450,8 +462,6 @@ div p {
   cursor: pointer;
   width: 9vh;
   display: flex;
-  border-radius: 50%;
-  background-color: white;
   align-items: center;
   position: absolute;
   z-index: 9;
@@ -481,8 +491,7 @@ div p {
   cursor: pointer;
   width: 9vh;
   display: flex;
-  border-radius: 50%;
-  background-color: white;
+
   align-items: center;
   position: absolute;
   z-index: 9;
@@ -514,8 +523,7 @@ div p {
   cursor: pointer;
   width: 9vh;
   display: flex;
-  border-radius: 50%;
-  background-color: white;
+
   align-items: center;
   position: absolute;
   opacity: 0.1;
@@ -546,8 +554,6 @@ div p {
   cursor: pointer;
   width: 9vh;
   display: flex;
-  border-radius: 50%;
-  background-color: white;
   align-items: center;
   position: absolute;
   opacity: 0.1;
@@ -587,25 +593,62 @@ div p {
 .card-tren-all {
   background-color: white;
   border-radius: 10px;
-  padding: 10px 20px 0 20px;
+  padding: 10px 20px 20px 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   margin-right: 35px;
 }
 
 .card-tren-all img {
-  width: 80px;
+  width: 110px;
 }
 
 .samsung {
-  width: 160px !important;
+  width: 130px !important;
 }
 
 .nokia {
-  width: 110px !important;
+  width: 92px !important;
 }
 
 .rog {
+  width: 150px !important;
+}
+
+.poco {
+  width: 80px !important;
+}
+
+.l-hp {
+  width: 110px !important;
+}
+
+.l-samsung {
+  width: 145px !important;
+}
+
+.l-huawei {
+  width: 136px !important;
+}
+
+.l-rog {
+  width: 190px !important;
+}
+
+.ac-samsung {
+  width: 150px !important;
+  margin-top: 42px;
+}
+
+.cannon {
   width: 200px !important;
+}
+
+.printer {
+  width: 135px !important;
+}
+
+.samsung-c {
+  width: 135px !important;
 }
 
 .card-body {
@@ -613,4 +656,17 @@ div p {
   flex-direction: column;
   align-items: center;
   width: 190px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 62, 62);
+  height: 70px;
+  width: 100%;
+}
+
+.footer p {
+  color: whitesmoke;
 }

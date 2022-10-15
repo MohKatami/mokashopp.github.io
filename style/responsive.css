@@ -59,6 +59,7 @@
   }
 
   .hamburger-nav li a {
+    display: inline-block;
     transition: 0.3s ease;
     color: white;
     font-weight: 500;
@@ -108,10 +109,11 @@
   }
 
   .input {
-    margin-left: 13vw;
-    width: 40vw;
+    margin-left: 11vw;
+    width: 50vw;
     height: 10px;
-    padding: 7px 10px 12px 10px;
+    font-size: 12px;
+    padding: 10px 10px 9px 11px;
   }
 
   .input::-webkit-input-placeholder {
@@ -129,7 +131,7 @@
   }
 
   .nav img {
-    right: 10px;
+    right: 0;
     padding: 5px 10px;
     width: 13px;
     height: 13px;
@@ -301,7 +303,7 @@
   }
 
   .fitur-item img {
-    width: 9vw !important;
+    width: 10vw !important;
     height: 7vh !important;
   }
 
@@ -406,36 +408,74 @@
     margin-right: 20px;
   }
 
+  .card-tren-all img {
+    width: 80px;
+  }
+  .desc-tren-ac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .desc-tren-ac h2 {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
   /* img product */
 
-  .l-rog {
-    margin: 12px 0 12px 0;
-    width: 100px !important;
-  }
-
-  .l-samsung {
-    margin: 10px 0 10px 0;
-  }
-  .l-huawei {
-    margin: 7px 0 9px 0;
-  }
-
-  .poco {
-    width: 60px !important;
-  }
-
-  .rog {
-    margin: 5px 0 3 0;
-    width: 108px !important;
-  }
-
   .samsung {
-    margin-bottom: 4px;
-    width: 90px !important;
+    width: 96px !important;
   }
 
   .nokia {
-    width: 70px !important;
+    width: 68px !important;
+  }
+
+  .rog {
+    width: 110px !important;
+  }
+
+  .poco {
+    width: 58px !important;
+  }
+
+  .l-hp {
+    width: 80px !important;
+  }
+
+  .l-samsung {
+    width: 108px !important;
+  }
+
+  .l-huawei {
+    width: 100px !important;
+  }
+
+  .l-rog {
+    width: 145px !important;
+  }
+
+  .ac-samsung {
+    width: 90px !important;
+    margin-top: 27px;
+  }
+
+  .vr-meta {
+    width: 65px !important;
+  }
+  .cannon {
+    margin: 10px 0 !important;
+    width: 90px !important;
+  }
+
+  .printer {
+    width: 80px !important;
+  }
+
+  .samsung-c {
+    width: 80px !important;
   }
 
   .card-body {
@@ -447,30 +487,66 @@
 
   /* button slider */
 
+  .btn-slide {
+    width: 5%;
+  }
+
   .btn-next {
-    right: -20px;
+    top: 58%;
+    right: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
 
   .btn-prev {
-    left: -20px;
+    top: 58%;
+    left: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
   .btn-pre {
-    left: -20px;
+    top: 35%;
+    left: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
   .btn-nxt {
-    right: -20px;
+    top: 35%;
+    right: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
   .pre-btn {
-    left: -20px;
+    top: 58%;
+    left: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
   .nxt-btn {
-    right: -20px;
+    top: 58%;
+    right: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
   .prev-btn {
-    left: -20px;
+    top: 38%;
+    left: -30px;
+    width: 15%;
+    opacity: 0.3;
   }
   .next-btn {
-    right: -20px;
+    top: 38%;
+    right: -30px;
+    width: 15%;
+    opacity: 0.3;
+  }
+
+  .footer {
+    height: 60px;
+  }
+
+  .footer p {
+    font-size: 13px;
   }
 }
 
@@ -545,6 +621,7 @@
   }
 
   .hamburger-nav li a {
+    display: inline-block;
     transition: 0.3s ease;
     color: white;
     font-weight: 500;
